@@ -1,0 +1,107 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin: 0;
+}
+
+.container {
+    padding: 20px 30px;
+}
+
+.form {
+    padding-top: 20px;
+}
+
+label span {
+    display: inline-block;
+}
+
+.one span, .three span {
+    margin-right: 70px;
+}
+
+.end-labels {
+    margin-left: 110px;
+}
+
+.end-labels p {
+    display: inline-block;
+}
+
+.end-labels p:last-of-type {
+    margin-left: 110px;
+}
+
+.two p, .two input {
+    margin-left: 110px;
+}
+
+.two span {
+    margin-right: 70px;
+}
+
+#address1, #address2, .three input, .seven input {
+    width: 70%;
+}
+
+#state {
+    margin-left: 0;
+}
+
+.end-label2 p {
+    display: inline-block;
+}
+
+.two .state-text {
+    margin-left: 150px;
+}
+
+.three p {
+    margin-left: 110px;
+}
+
+.four span, .six span {
+    margin-right: 10px;
+}
+
+.small {
+    width: 15%;
+}
+
+.end-label3 {
+    margin-left: 110px;
+}
+
+.end-label3 p {
+    display: inline-block;
+}
+
+.end-label3 p:last-of-type {
+    margin-left: 25px;
+}
+
+.seven span {
+    margin-right: 50px;
+}
+
+textarea {
+    width: 90%;
+}
